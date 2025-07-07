@@ -19,6 +19,9 @@ body {
     gap: 65px;
 }
 
+.icon {
+    margin-top: 1.9%;
+}
 .header {
     height:90vh;
     width:100%;
@@ -93,6 +96,10 @@ body {
     margin-top: 0;
 }
 
+.upcoming {
+    text-decoration: line-through;
+}
+
 .itemname {
     width: 80%;
 }
@@ -105,7 +112,7 @@ body {
 
 .skills {
     width: 100%;
-    height: 180vh;
+    height: 200vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,38 +126,107 @@ body {
 
 .skillcollage {
     flex-basis: 90%;
-    background-color: purple;
     width: 65%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
 
-#imageone {
-    background-color: black;
+.skillpanel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#imagetwo {
-    background-color: white;
+
+
+
+#imagefloor {
+    background-image: url("./gray-background.jpg");
+    background-size: cover;
 }
-#imagethree {
-    background-color: black;
+#imagewall {
+    background-image: url("./gray-background-2.jpg");
+    background-size: cover;
 }
-#imagefour {
-    background-color: white;
+#imageangled {
+    background-image: url("./gray-background-angled.jpg");
+    background-size: cover;
 }
-#imagefive {
-    background-color: black;
+#imageoutside {
+    background-image: url("./gray-background-outside.jpg");
+    background-size: cover;
 }
-#imagesix {
-    background-color: white;
+
+#displayinformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20%;
+    padding-left: 5%;
+    padding-right: 5%
 }
-#imageseven {
-    background-color: black;
+
+.skilltitle {
+    font-size: 4vh;
 }
-#imageeight {
-    background-color: white;
+
+.skilldescription {
+    font-size: 3vh;
 }
-#imagenine {
-    background-color: black;
+
+.about {
+    padding-top: 5vh;
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abouttitle {
+    font-size: 2.5rem;
+}
+.aboutinformation {
+    width: 40%;
+    margin-right: 25%;
+}
+.aboutinformation p {
+    font-size: 1.9vh;
+}
+
+#abouteducation {
+    padding-top: 5%;
+}
+
+#aboutexperience {
+    padding-top: 3%;
+}
+
+#aboutrecreational {
+    padding-top: 5%;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5px;
+}
+.contacttitle {
+    font-size: 2.5rem;
+}
+
+.contactinformation {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+}
+
+.linkcard {
+    display: flex;
+    font-size:2vh;
+    justify-content: center;
+    gap: 5px;
+    width: 20%;
 }
 
