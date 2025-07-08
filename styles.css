@@ -285,3 +285,25 @@ body {
     text-decoration: underline;
 }
 
+
+@media (max-width: 1250px) {
+    .links {
+        display: none;
+    }
+    .projects {
+        width: 95%;
+    }
+    .projecttitle {
+        padding-bottom: 2px;
+    }
+    .skillcollage {
+        width: 90%;
+    }
+    .aboutinformation {
+        width: 80%;
+        margin-right: 0;
+    }
+    .contactinformation {
+        width: 100%;
+    }
+}
