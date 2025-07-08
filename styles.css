@@ -290,11 +290,15 @@ body {
     .links {
         display: none;
     }
+    .header {
+        height: 115vh;
+    }
     .projects {
         width: 95%;
     }
     .projecttitle {
-        padding-bottom: 2px;
+        padding-bottom: 30px;
+        font-size: 2vh;
     }
     .skillcollage {
         width: 90%;
@@ -305,5 +309,29 @@ body {
     }
     .contactinformation {
         width: 100%;
+    }
+    .linkcard {
+        width: 30%;
+    }
+    .projects {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 3fr 3fr 3fr;
+    }
+    .projectsheader {
+        grid-column: span 2;
+    }
+    .projectcontainer {
+        height: 150vh;
+        padding-bottom: 150px;
+    }
+    .skillcollage {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 2fr;
+    }
+    .skills {
+        padding-bottom: 50px;
+    }
+    #displayinformation {
+        padding-top: 2%;
     }
 }
