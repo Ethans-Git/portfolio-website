@@ -29,5 +29,5 @@ window.addEventListener("DOMContentLoaded", ()=>{
     setTimeout(()=>{
         header.style.animation = "appear 0.8s linear";
         header.style.opacity = "1";
-    }, 2000);
+    }, 1400);
 })
