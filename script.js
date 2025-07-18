@@ -17,3 +17,17 @@ window.onscroll = () => {
         }
     })
 }
+
+let intro = document.querySelector(".intro");
+let header = document.querySelector(".header");
+window.addEventListener("DOMContentLoaded", ()=>{
+
+    setTimeout(()=>{
+        intro.style.top = '-170vh'
+    }, 500);
+
+    setTimeout(()=>{
+        header.style.animation = "appear 0.8s linear";
+        header.style.opacity = "1";
+    }, 2000);
+})
